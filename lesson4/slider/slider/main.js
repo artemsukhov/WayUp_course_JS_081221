@@ -53,6 +53,7 @@ dots.forEach((item, indexDot) => {
     prepearCurrentSlide(index);
   })
 })
+const auto = setInterval( nextSlide, 2000 );
 
 next.addEventListener('click', nextSlide )
 prev.addEventListener('click', prevSlide )
