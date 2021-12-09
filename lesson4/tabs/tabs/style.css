@@ -9,10 +9,10 @@ h1 {
     align-items: center;
     flex-flow: column;
 }
-#tabs {
+#tabs, #tabs-dop {
     display: flex;
 }
-.tab-btn {
+.tab-btn, .tab-btndop {
     width: 100px;
     height: 40px;
     font-size: 20px;
@@ -22,22 +22,22 @@ h1 {
     border: 1px solid black;
     border-radius: 5px;
 }
-.tab-btn.active {
+.tab-btn.active, .tab-btndop.active {
     background-color: blue;
     color: #ffffff;
 }
 
-#contents {
+#contents  {
     max-width: 300px;
     width: 100%;
     height: 150px;
     border: 1px solid black;
 }
 
-.content {
+.content, .content-dop {
     display: none;
 }
 
-.content.active {
+.content.active, .content-dop.active {
     display: block;
 }
